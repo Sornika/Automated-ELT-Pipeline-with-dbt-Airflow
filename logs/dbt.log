@@ -1,0 +1,109 @@
+[0m13:40:03.501342 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B037E5AE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B0483E050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B0483DE40>]}
+
+
+============================== 13:40:03.536079 | 4410a5af-9167-478f-8dd6-c06c7a13f697 ==============================
+[0m13:40:03.536079 [info ] [MainThread]: Running with dbt=1.12.0-b1
+[0m13:40:03.540616 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Koira\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:40:03.646025 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Koira\.dbt
+[0m13:41:26.982811 [debug] [MainThread]: Starter project path: C:\Users\Koira\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m13:41:27.222039 [info ] [MainThread]: Setting up your profile.
+[0m13:55:57.414333 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A873825BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A87487E140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A87487DF30>]}
+
+
+============================== 13:55:57.424488 | 3d54c06e-1fc8-49da-bc65-52dd5affe2cc ==============================
+[0m13:55:57.424488 [info ] [MainThread]: Running with dbt=1.12.0-b1
+[0m13:55:57.426902 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Koira\\.dbt', 'invocation_command': 'dbt init', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:55:57.508875 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Koira\.dbt
+[0m13:58:45.914387 [debug] [MainThread]: Starter project path: C:\Users\Koira\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m13:58:45.997420 [info ] [MainThread]: Setting up your profile.
+[0m14:02:39.388782 [info ] [MainThread]: Profile custom_postgres written to C:\Users\Koira\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m14:02:39.400334 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m14:02:39.402267 [info ] [MainThread]: dbt version: 1.12.0-b1
+[0m14:02:39.403265 [info ] [MainThread]: python version: 3.10.0
+[0m14:02:39.404266 [info ] [MainThread]: python path: C:\Users\Koira\AppData\Local\Programs\Python\Python310\python.exe
+[0m14:02:39.405268 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m14:02:39.559525 [info ] [MainThread]: Using profiles dir at C:\Users\Koira\.dbt
+[0m14:02:39.561534 [info ] [MainThread]: Using profiles.yml file at C:\Users\Koira\.dbt\profiles.yml
+[0m14:02:39.563538 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Koira\elt\custom_postgres\dbt_project.yml
+[0m14:02:39.569829 [info ] [MainThread]: adapter type: postgres
+[0m14:02:39.571581 [info ] [MainThread]: adapter version: 1.10.0
+[0m14:02:39.878931 [info ] [MainThread]: Configuration:
+[0m14:02:39.879926 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:02:39.882416 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m14:02:39.883608 [info ] [MainThread]: Required dependencies:
+[0m14:02:39.884613 [debug] [MainThread]: Executing "git --help"
+[0m14:02:40.009616 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:02:40.010627 [debug] [MainThread]: STDERR: "b''"
+[0m14:02:40.011636 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:02:40.012629 [info ] [MainThread]: Connection:
+[0m14:02:40.014269 [info ] [MainThread]:   host: localhost
+[0m14:02:40.015220 [info ] [MainThread]:   port: 5434
+[0m14:02:40.017218 [info ] [MainThread]:   user: postgres
+[0m14:02:40.018211 [info ] [MainThread]:   database: destination_db
+[0m14:02:40.020231 [info ] [MainThread]:   schema: public
+[0m14:02:40.021219 [info ] [MainThread]:   connect_timeout: 10
+[0m14:02:40.023224 [info ] [MainThread]:   role: None
+[0m14:02:40.024216 [info ] [MainThread]:   search_path: None
+[0m14:02:40.025223 [info ] [MainThread]:   keepalives_idle: 0
+[0m14:02:40.026222 [info ] [MainThread]:   sslmode: None
+[0m14:02:40.028214 [info ] [MainThread]:   sslcert: None
+[0m14:02:40.029221 [info ] [MainThread]:   sslkey: None
+[0m14:02:40.032110 [info ] [MainThread]:   sslrootcert: None
+[0m14:02:40.033297 [info ] [MainThread]:   application_name: dbt
+[0m14:02:40.034292 [info ] [MainThread]:   retries: 1
+[0m14:02:40.036291 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m14:02:41.409878 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m14:02:46.864598 [debug] [MainThread]: Using postgres connection "debug"
+[0m14:02:46.866595 [debug] [MainThread]: On debug: select 1 as id
+[0m14:02:46.867591 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:02:50.983161 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5434 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5434 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[0m14:02:55.088193 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m14:02:55.089687 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m14:02:55.090851 [debug] [MainThread]: On debug: No close available on handle
+[0m14:02:55.091842 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:02:55.092841 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:02:55.098869 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5434 failed: Connection refused (0x0000274D/10061)
+  	Is the server running on that host and accepting TCP/IP connections?
+  connection to server at "localhost" (127.0.0.1), port 5434 failed: Connection refused (0x0000274D/10061)
+  	Is the server running on that host and accepting TCP/IP connections?
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:02:55.110796 [info ] [MainThread]: Your new dbt project "custom_postgres" was created!
+Initialized new project in C:\Users\Koira\elt\custom_postgres\custom_postgres
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:02:55.112823 [info ] [MainThread]: [31mYour profile may need adjustments. You can find the logs of `dbt debug` above[0m
+[0m14:02:55.116814 [debug] [MainThread]: Command `dbt init` succeeded at 14:02:55.115817 after 418.00 seconds
+[0m14:02:55.117827 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:02:55.118825 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A873825BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A87487E140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A874AD5C60>]}
+[0m14:02:55.120811 [debug] [MainThread]: Flushing usage events
+[0m14:02:56.488864 [debug] [MainThread]: An error was encountered while trying to flush usage events
